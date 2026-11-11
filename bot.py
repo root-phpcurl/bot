@@ -13,7 +13,7 @@ load_dotenv()
 # --- SETUP ---
 TELEGRAM_TOKEN = os.getenv("1653751429:AAEFQqxCiDu8wXgImbrHbJD3Om8hsxfQaEk")
 GEMINI_KEY = os.getenv("AQ.Ab8RN6Jgv1KZQKSWEO_mZOmkA8whTLpRVgPCcoefzvSlmzN2rQ")
-SHEET_NAME = os.getenv("Database Bot")
+SHEET_NAME = os.getenv("Database Boto")
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
 genai.configure(api_key=GEMINI_KEY)
